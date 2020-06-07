@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+     <script type="text/javascript">
+       <!-- task no 1 -->
+       var num1 = "7", num2 = "14";
+       var sum = (+num1) + (+num2);
+
+       <!-- task no 2 -->
+       var subtract = num1 - num2;
+       var multiply = num1 * num2;
+       var divide = num1 / num2;
+       var mod = num1 % num2;
+       alert("Assignment no 5 started ");
+       document.write("Sum of numbers are "+ sum + "<br>");
+
+       <!-- task no 3 -->
+       var variable;
+       document.write("Value of the variable is " + variable + "<br>");
+       variable = "10";
+       document.write("Value of variable after initialing " + variable + "<br>");
+       ++variable;
+       document.write("Value of variable after increment is " + variable + "<br>");
+       variable += 7;
+       document.write("Value of variable after addtion is " + variable + "<br>");
+       --variable;
+       document.write("Value of variable after decrement is " + variable + "<br>");
+       variable %=3;
+       document.write("The remainder is " + variable + "<br>");
+
+      <!-- task no 4 -->
+      document.write("<br> <br>"+"Movie tickets");
+      var ticket ="300",total ;
+      total = ticket*5;
+      document.write("The cost of movie ticket is "+ ticket + "<br>" + "The total cost of the tickets are "+ total);
+
+
+      <!-- task no 5 -->
+      document.write("<br> <br>"+"Table of 5" + "<br>");
+      var table = "5";
+      for( var i=1;i<=10;i++)
+      {
+        document.write(table);
+        document.write( "x" )
+        document.write( i )
+        document.write("=")
+        document.write((table*i));
+        document.write("<br>");
+      }
+
+      <!-- task no 6 -->
+      document.write("<br> <br>"+"Temperature" + "<br>");
+      var temp = "36";
+      var fre = (temp * (9/5) + 32);
+      document.write("celsius to fahrenheit is "+ fre +"<br>");
+      var change;
+      change = (fre-32)*(5/9);
+      document.write("fahrenheit to celsius is "+ change);
+
+      <!-- task no 7 -->
+      document.write("<br> <br>"+"Shopping cart" + "<br>");
+      var price1 = "300" ;
+      var price2 = "500";
+      var quality1 = "2" ;
+      var quality2 ="3" ;
+      var shipping ="100" ;
+      var cartTotal ;
+      cartTotal = (price1*quality1)+ (price2*quality2 );
+      document.write("price of 1 item is " + price1 + "<br>");
+      document.write("price of 2 item is " + price2 + "<br>");
+      document.write("order quality of 1 item is " + quality1 + "<br>");
+      document.write("order quality of 2 item is " + quality2 + "<br>");
+      document.write("Shipping charges" + shipping + "<br>");
+      document.write("Total cost of your order is " + cartTotal + "<br>");
+
+
+     <!-- Task n0 8 -->
+       document.write("<br> <br>"+"Percentege" + "<br>");
+       var marks ="500";
+       var obt ="345";
+       var per = (obt/marks)*100;
+       document.write("Total marks is " + marks + "<br>" +
+        "Marks obtained is "+ obt +"<br>"
+       +"The percentage of the student is " + per);
+
+
+       <!-- Task no 9 -->
+        document.write("<br> <br>"+"Currency" + "<br>");
+        var us ="10";
+        var sr = "25";
+        var convert =(us*104.82)+(sr*28);
+        document.write("Currency in pakistan will be "+ convert);
+
+
+        <!-- task no 10 -->
+        document.write("<br> <br>"+"Arithmetic operation" + "<br>");
+        var num = "6";
+
+        var save = (num +5)+(num*10 )+(num/2);
+        document.write(save + "<br>");
+
+        <!-- Task no 11 -->
+        document.write("<br> <br>"+"Age calculator" + "<br>");
+        var currentYear ="2020";
+        var birthYear = "1998";
+        var ageStore = currentYear-birthYear;
+        document.write("Current year "+currentYear +"<br>"
+        +"birth Year is" +birthYear +"<br>" +
+        "Your current age is" +ageStore );
+
+
+      <!-- TAsk no 12 -->
+        document.write("<br> <br>"+" Geometrizer" + "<br>");
+        var radius = "32";
+        var area ="10";
+        var circumference = 2*3.142*radius;
+        document.write("The circumference of the circle is " +circumference +"<br>");
+        var area_circle= 2*3.142*radius;
+        document.write("The circumference of the circle is " +circumference);
+
+        <!-- task no 13 -->
+        document.write("<br> <br>"+"Favourite snack data " + "<br>");
+        var snack_name ="kitkat";
+        var snack_age ="21";
+        var est_age ="55";
+        var per_day ="10";
+        var total_snack = (est_age * per_day)-(snack_age*per_day);
+
+        document.write("Fav snack :"+ snack_name +"<br>");
+        document.write("Current age :"+ snack_age +"<br>");
+        document.write("Total estimate  :"+ est_age +"<br>");
+        document.write("Per day:"+ per_day +"<br>");
+        document.write("You will need "+ total_snack +"<br>"
+        +"chocalate to last you untill the last ripe old age of " +est_age);
+
+
+     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  </body>
+</html>

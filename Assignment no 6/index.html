@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment no 6</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+    // task no1
+    document.write("Arithmetic operation"+"<br>")
+    var num = "10";
+    document.write("The value of number is " + num +"<br>");
+    ++num;
+    document.write("The value of ++num is " + num + "<br>");
+    document.write(" Now The value of number is " + num +"<br>");
+    num++;
+    document.write("The value of num++ is " + num +"<br>");
+    document.write(" Now The value of number is " + num +"<br>");
+    --num;
+    document.write("The value of --num is " + num +"<br>");
+    document.write(" Now The value of number is " + num +"<br>");
+
+    num--;
+    document.write(" Now The value of num-- is " + num +"<br>");
+    document.write(" Now The value of number is " + num +"<br>");
+
+
+    // task no 2
+   document.write("<br> <br>"+ "Result of varaibles" +"<br>");
+   var a ="2", b ="1";
+   document.write( a +"<br>");
+   document.write( b +"<br>");
+   var result =( (--a) - (--b) + (++b) +(b--));
+
+   document.write(result +"<br>");
+
+   // task no 3
+   var name;
+   name = prompt("Enter your name");
+   alert("hello " + name + "\n" + "Welcome to our site" );
+
+   // task no 5
+  document.write("<br> <br>"+ "use input for tables" +"<br>");
+  var number = Number(prompt("Enter a number"));
+  var store = typeof(number);
+  // document.write(store);
+  if(store==="number")
+  {
+  for( var i=1;i<=10;i++)
+  {
+    document.write(number);
+    document.write( "x" )
+    document.write( i )
+    document.write("=")
+    document.write((number*i));
+    document.write("<br>");
+  }
+}
+else if(store === "NaN")
+ {
+  number = "5";
+  for( var i=1;i<=10;i++)
+  {
+    document.write(number);
+    document.write( "x" )
+    document.write( i )
+    document.write("=")
+    document.write((number*i));
+    document.write("<br>");
+  }
+}
+
+// task no 6
+  document.write("<br> <br>"+ "student record" +"<br>");
+var sub1 ,sub2 ,sub3 ,obt_marks ,total_marks ,percent ;
+sub1 = Number(prompt("Enter the marks of subject 1 "));
+sub2 = Number(prompt("Enter the marks of subject 2 "));
+sub3 = Number(prompt("Enter the marks of subject 3 "));
+obt_marks = sub1+sub2+sub3;
+total_marks = "300";
+percent = (obt_marks/total_marks)*100;
+document.write("sub1 english :" +sub1 +"<br>");
+document.write("sub2 urdu :" +sub2 +"<br>");
+document.write("sub3 math :" +sub3 +"<br>");
+document.write("obtained marks :" + obt_marks +"<br>");
+document.write("percentage :" +percent +"<br>");
+
+
+
+
+
+    </script>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </body>
+</html>
